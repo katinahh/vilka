@@ -1,7 +1,40 @@
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 100%;
   height: 100vh;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100%;
+  height: calc(100vh - 120px);
+
+  & > * {
+    margin-bottom: 1rem;
+  }
+}
+
+.content-cart {
+  width: 100%;
+  height: 120px;
+  background-color: grey;
+
+  @media screen and (min-width: 768px) {
+    height: 80px;
+  }
+}
+
+.slider {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+
+  @media screen and (min-width: 768px) {
+    height: 240px;
+  }
 }

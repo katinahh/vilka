@@ -1,7 +1,9 @@
+import './mainMenu.scss';
+
 export const MainMenu: React.FC = () => {
     return (
-      <header>
-          MainMenu
-      </header>
+      <div className='catalogue'>
+          
+      </div>
     );
   }

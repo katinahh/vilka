@@ -1,7 +1,7 @@
 export const Footer: React.FC = () => {
     return (
-      <header>
+      <footer>
           Footer
-      </header>
+      </footer>
     );
   }
